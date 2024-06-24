@@ -1,3 +1,4 @@
+import { useState } from "react"
 export default function Ejercicio1() {
 
   return (
@@ -5,18 +6,7 @@ export default function Ejercicio1() {
       <h2>Ejercicio 1: Lista desplegable</h2>
 
       <label>Seleccione una fruta: </label>
-      {/* Crear lista de selección */}
-      function ComponenteFormulario() {
-        const [formdata, setFormData] = useState( {
-          firstName: ''
-          lastName: ''   
-        });
-        return (
-          <form onSumbit = {ComponenteFormulario/}>
-            <label>Nombre:</label>
-
-        
-      }
+      {form}
 
     </div>
   )
