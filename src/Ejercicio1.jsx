@@ -6,6 +6,17 @@ export default function Ejercicio1() {
 
       <label>Seleccione una fruta: </label>
       {/* Crear lista de selección */}
+      function ComponenteFormulario() {
+        const [formdata, setFormData] = useState( {
+          firstName: ''
+          lastName: ''   
+        });
+        return (
+          <form onSumbit = {ComponenteFormulario/}>
+            <label>Nombre:</label>
+
+        
+      }
 
     </div>
   )
